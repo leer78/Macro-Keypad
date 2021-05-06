@@ -4,10 +4,12 @@ Macro keypad makes accessing regular shortcuts and buttons far more convenient
 Name
 Macro Keypad
 
-Description
+DESCRIPTION
+
 A macro keypad with several 3x3 keyswitch buttons that utilize an Arduino Pro Micro to extend the functionality of my main keyboard. My primary focus was to add convenient shortcuts for tools that I regularly use.
 
-Visuals
+VISUALS
+
 I intially started by 3D printing several main components of this project. Reusing 3D printed keycaps from a .stl file on the web (source unknown), I started to develop a framework for the main body. This portion actually took me much longer than expected, as the prints had to be perfectly sized so that the key switches could fit snuggly without the need for adhesives. 
 
 I took this opportunity to solder a device for the first time rather than buying a more expensive PCB board. In the image below, I first created three rows of diodes which were connected to one of the two pins. For efficiency, I connected the diode wires to eachother directly rather than connecting them by wire. I felt that this was fine as there would be very few loose wires anyways, so I didn't worry about shorts. 
@@ -52,8 +54,6 @@ And here is the final design!
 ![5](https://user-images.githubusercontent.com/74937113/117227236-59763580-ade4-11eb-8d2a-2614964dda7d.jpg)
 
 
-Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
 
 Usage
 As I only have access to a laptop, I do not have access to the number pad that would often come with keyboards for a desktop. This macro keypad can be easily programmed to execute keyboard shortcuts and functions.
@@ -61,12 +61,14 @@ As I only have access to a laptop, I do not have access to the number pad that w
 For example, I currently have my first page as general buttons like volume, copy & paste, etc. My second page is meant soley for software shortcuts, like opening Google Chrome, Spotify and Teams. The remaining pages are keybinds for certain programs like Discord, Microsoft Teams, and several games. 
 
 
-Support
+SUPPORT
+
 If you plan on attempting this project yourself, just reach out to me! I found that talking to people with more experience really helped me, as this was something I'd never done before. I looked through many similar designs online, reached out to my peers and academic associates from my University, and joined online communities to get a well rounded viewpoint on the aspects of my project.
 
 I can be contacted at leer78@mcmaster.ca.
 
-Roadmap
+ROADMAP
+
 The entire project took about a weeks worth of time. 
 Day 1 - 3: Designing, modelling, and 3D printing the key caps and switches.
 Day 3-4: Soldering the circuit matrix.
