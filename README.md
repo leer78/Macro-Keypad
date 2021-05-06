@@ -15,12 +15,12 @@ I intially started by 3D printing several main components of this project. Reusi
 
 I took this opportunity to solder a device for the first time rather than buying a more expensive PCB board. In the image below, I first created three rows of diodes which were connected to one of the two pins. For efficiency, I connected the diode wires to eachother directly rather than connecting them by wire. I felt that this was fine as there would be very few loose wires anyways, so I didn't worry about shorts. 
 
-<img src= "https://user-images.githubusercontent.com/74937113/117227209-511dfa80-ade4-11eb-9c58-a4904fa6fd2f.jpg" width="200" height="100">
+<img src= "https://user-images.githubusercontent.com/74937113/117227209-511dfa80-ade4-11eb-9c58-a4904fa6fd2f.jpg" width="200" height="200">
 
 
 Once I attached three columns of regular wire, I ordered my microcontroller. At the recommendation of numerous online sources, I concluded that the Arduino Pro Micro would fit perfectly in this project as the main controller. 
 
-<img src= "https://user-images.githubusercontent.com/74937113/117227218-5418eb00-ade4-11eb-9b0f-26ac4e0662a6.jpg" width="200" height="100">
+<img src= "https://user-images.githubusercontent.com/74937113/117227218-5418eb00-ade4-11eb-9b0f-26ac4e0662a6.jpg" width="200" height="200">
 
 At this point, I was able to solder three red wires to the ends of each column, and black wires to the rows. The colour choice simply aided in keeping my design organized. Once these were attached to the pro micro, the keypad was actually functional since I created much of the code before hand. As mentioned before, this was my first experience soldering, so I planned to connect my wires to every other pin. I had the space for it, so spacing them out would ensure that any mistakes weren't as devestating.
 
@@ -38,7 +38,7 @@ I technically had finished my original goal of making a working keypad. However,
 
 If I needed the extra flexibility, I thought of using a blinking light which would be a 2. But after some thinking, I decided that blinkers would be too confusing and generally distracting, so I settled for the latter. Here is my testing using a breadboard without having to solder the components just yet. 
 
-<img src= "https://user-images.githubusercontent.com/74937113/117231513-53d11d80-aded-11eb-900e-d0ee94c2bcbd.jpg" width="200" height="100">
+<img src= "https://user-images.githubusercontent.com/74937113/117231513-53d11d80-aded-11eb-900e-d0ee94c2bcbd.jpg" width="200" height="200">
 
 I had to calculate simple circuitry values such as what voltage my LEDs would use and the strength of their resistors. This was done using Ohm's Law and was straight forward as each LED would be seperate in their own series loops. 
 
@@ -54,7 +54,7 @@ My final steps were to design the main casing and the bottom panel. I went throu
 
 And here is the final design!
 
-![5](https://user-images.githubusercontent.com/74937113/117227236-59763580-ade4-11eb-8d2a-2614964dda7d.jpg = 250x100)
+![5](https://user-images.githubusercontent.com/74937113/117227236-59763580-ade4-11eb-8d2a-2614964dda7d.jpg)
 
 
 
