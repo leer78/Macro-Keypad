@@ -79,3 +79,7 @@ Day 4-5: Researching and adding LED functionality.
 Day 6: Programming the shortcuts.
 Day 7: Testing different cases and bottem panels.
 
+ATTACHED
+
+Attached are the inventor files for the three seperate models. For my visualization, I constrained them in an assembly to ensure pieces would fit.
+I also included my arduino C++ script. At the moment I've run out of ideas for what to bind each key to, but in the future I plan on adding keybinds to the empty pages.
